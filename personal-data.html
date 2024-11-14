@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Personal Data</title>
+	<!-- This is my fabicon code to change the icon on the top of the browser /-->
+	<link rel="shortcut icon" href="images/angryghost.png">
+	
+	<style>
+		.box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: -1;
+}
+
+.box #tbox1 {
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+	
+		body {
+
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+	
+		#message {
+    align-content: center;
+    color: #FFFFFF;
+    text-align: justify;
+    font-size: small;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    padding-left: 9px;
+    padding-right: 9px;
+		}
+		
+		#message2 {
+    align-content: center;
+    color: #FFFFFF;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    font-size: small;
+    text-align: justify;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 15px;
+		}
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    </style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('images/main_RO.png','images/last_RO.png')">
+	<div class="box">
+<p id="tbox1"> Personal Data </p>
+		
+		<div id="message">The Journal recognizes the importance to protect the personal information of authors and institutes. Serving as an open-access journal, authors should not, under any circumstances provide sensitive information, such as national identification number, social security number, bank account number, and credit card number to the Editorial Team of the Journal. Identification of institutions, however, might be requested whenever required.</div>
+
+<div id="message2">We will fully comply with the personal data protection act and will not tolerate any deed of leaking of any sensitive information of the authors and institutes to the external party.</div>
+		
+			<div style="text-align: center; padding-top: 70px;"> <a href="landingpg.html"><img src="images/main.png" alt="" width="73" height="73" id="Image1" onMouseOver="MM_swapImage('Image1','','images/main_RO.png',1)" onMouseOut="MM_swapImgRestore()"/></a><a href="about-journal.html"></a><a href="editorialteam.html"></a><a href="plagarism.html"></a><a href="last page.html"><img src="images/last.png" alt="" width="73" height="73" id="Image5" onMouseOver="MM_swapImage('Image5','','images/last_RO.png',1)" onMouseOut="MM_swapImgRestore()"/></a></div>
+</div>
+	
+</body>
+</html>
